@@ -1,0 +1,153 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'android';
+    src: url('pacote-projeto-d010/fontes/idroid.otf')
+    format(opentype), 
+    url('pacote-projeto-d010/fontes/idroid.ttf')
+    format(truetype);
+
+}
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ebe5c5;
+}
+header#cabecario {
+    background-image: linear-gradient(to bottom, #2fa665,#196f40,#053319);
+    box-shadow: 0px 5px 10px 1px #0000003f;
+    min-width: 320px;
+}
+h1#titulo_principal {
+    margin: 0px;
+    padding: 36px 10px 1px 10px;
+    text-align: center;
+    font-family: Bebas Neue;
+    font-size: 43px;
+    font-weight: 100;
+    color: white;
+    text-shadow: 2px 2px 2px #0000003e;
+}
+p#mensagem {
+    color: white;
+    text-align: center;
+    margin: 15px;
+    margin-top: 17px;
+    font-size: 17px;
+    text-shadow: 2px 3px 2px #0000003e;
+}
+nav#nav_header {
+    padding: 37px 0px 10px 17px;
+}
+.links_header {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #7ee0ad;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.transicao:hover {
+    color: #053319;
+    background-color: #7ee0ad;
+    transition-duration: 700ms;
+}
+main#principal {
+    min-width: 280px;
+    max-width: 850px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 3px #0000003e;
+    padding: 20px;
+    background-color: white;
+    
+}
+.titulo_conteudo {
+    margin: 0px;
+    font: 100 26px 'android';
+    color: #053319;
+}
+.paragrafos_conteudo {
+    font-size: 15px;
+    text-indent: 30px;
+    line-height: 30px;
+}
+.destaque {
+    color: #1a5c37;
+}
+.subtitulo_conteudo {
+    font: 100 20px 'android';
+    color: #1a5c37;
+    background-image: linear-gradient(to right,#84e1ae,#bdefd3,white);
+    padding-left: 7px;
+}
+.links{
+    text-decoration: none;
+    color: #063d1e;
+    font-weight: bold ;
+    background-color: #84e1ae;
+    padding: 2px;
+}
+.links::after {
+    content: '\1F517';
+}
+.links:hover {
+    text-decoration: underline;
+    color:#196f40
+}
+
+.imagem_centro {
+    display: block;
+    margin: auto;
+}
+.responsivo {
+    width: 100%;
+}
+article#bloco {
+    background-color: #83e1ad;
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px 0px 10px 0px;
+}
+h3#titulo_bloco {
+
+    padding: 10px;
+    margin: 0px;
+    background-color: #1a5c37;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+.paragrafos_aprender {
+    font-size: 15px;
+    text-indent: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+footer#rodape {
+    background-color: #053319;
+    min-width: 320px;
+
+}
+p#frase_final {
+    color: white;
+    margin: 0px;
+    background-color: '#053319';
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+ul#lista {
+    columns: 2;
+    list-style-type: '\2714\00A0';
+}
+.video {
+    top: 5%;
+    left: 5%;
+    position: absolute;
+}
+div#div_video {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 58%;
+}
